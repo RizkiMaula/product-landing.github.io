@@ -276,6 +276,11 @@ footer {
     top: 20px;
   }
 
+  ul {
+    justify-content: start;
+    gap: 10px;
+  }
+
   li a {
     font-size: 0.7em;
   }
@@ -286,10 +291,14 @@ footer {
   }
 
   .about h1 .title-about h1 {
-    font-size: 1rem;
+    font-size: 0.4rem;
   }
 
   .items {
-    border: 1px solid black;
+    border: 2px solid aquamarine;
+  }
+
+  .item-1 p {
+    font-size: 1rem;
   }
 }
