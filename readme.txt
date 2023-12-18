@@ -1,1 +1,1 @@
-ini branch buat mobile phone yang ukuran kecil
+ini adalah branch untuk style yang ada di tab.
