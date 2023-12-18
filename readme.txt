@@ -1,0 +1,1 @@
+ini branch buat mobile phone yang ukuran kecil
