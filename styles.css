@@ -19,6 +19,8 @@ html {
 /* navbar */
 
 nav {
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   padding: 20px 20px;
   width: 100%;
@@ -26,16 +28,26 @@ nav {
   z-index: 1;
 }
 
-ul {
-  padding: 0 120px;
+.logo {
+  padding: 10px 120px;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: var(--white);
+  text-align: center;
+}
+
+nav ul {
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   list-style-type: none;
+  padding: 10px 120px;
+  text-align: center;
 }
 
 li a {
   position: relative;
-  font-size: 2.1rem;
+  font-size: 1.3em;
   font-weight: 600;
   text-decoration: none;
   color: var(--white);
@@ -122,6 +134,7 @@ li a:hover:before {
   gap: 20px;
 }
 
+/* titbe for about */
 .title-about {
   margin-bottom: 10px;
 }
@@ -154,13 +167,6 @@ li a:hover:before {
   height: auto;
 }
 
-.cards img {
-  width: 204px;
-  height: 204px;
-  border-radius: 25px;
-  margin: 20px;
-}
-
 .product-title {
   display: flex;
   align-items: center;
@@ -180,7 +186,7 @@ li a:hover:before {
 
 .container-cards {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-around;
   padding: 20px 0;
   background-color: var(--light-blue);
@@ -266,23 +272,27 @@ footer {
 /* tablet */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   li a {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .items {
     border: 2px solid black;
+    font-size: 1rem;
   }
 }
 
 /* mobile phone */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+  .items {
+    border: 2px solid black;
+  }
+
   .container-hero {
     top: 20px;
   }
 
-  ul {
-    justify-content: start;
-    gap: 10px;
+  nav menu {
+    display: none;
   }
 
   li a {
@@ -296,10 +306,6 @@ footer {
 
   .about h1 .title-about h1 {
     font-size: 0.4rem;
-  }
-
-  .items {
-    border: 2px solid aquamarine;
   }
 
   .item-1 p {
