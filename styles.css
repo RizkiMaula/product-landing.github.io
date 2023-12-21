@@ -203,6 +203,11 @@ li a:hover:before {
   background-color: var(--wheat);
 }
 
+.cards img {
+  width: 50%;
+  height: 20%;
+}
+
 .cards p {
   margin: 10px 0;
   font-weight: 600;
