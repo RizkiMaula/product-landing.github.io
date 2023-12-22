@@ -203,6 +203,7 @@ li a:hover:before {
   background-color: var(--wheat);
 }
 
+/* buat gambar di card */
 .cards img {
   width: 50%;
   height: 20%;
