@@ -81,7 +81,7 @@ li a:hover:before {
   background-repeat: no-repeat;
   background-size: cover;
   top: 70px;
-  color: var(--purple);
+  color: var(--white);
   font-size: 2rem;
   padding: 20% 20%;
 }
@@ -100,7 +100,6 @@ li a:hover:before {
 }
 
 .hero-text {
-  border: 2px solid black;
   width: 100%;
   left: 100px;
 }
@@ -286,6 +285,14 @@ footer {
     align-items: center;
   }
 
+  .hero-text {
+    color: var(--white);
+  }
+
+  .container-hero p {
+    color: rgb(26, 26, 179);
+  }
+
   .item-1 {
     font-size: 0.7rem;
   }
@@ -295,6 +302,24 @@ footer {
   }
 
   .title-about {
+    font-size: 0.7rem;
+  }
+
+  .product-drink,
+  .product-food,
+  .product-title {
+    font-size: 0.7rem;
+  }
+
+  .cards {
+    font-size: 0.7rem;
+  }
+
+  .social {
+    font-size: 0.7rem;
+  }
+
+  .footer {
     font-size: 0.7rem;
   }
 }
