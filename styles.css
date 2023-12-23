@@ -18,7 +18,7 @@ html {
 
 /* navbar */
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -51,10 +51,10 @@ li a {
   font-weight: 600;
   text-decoration: none;
   color: var(--white);
-}
+} */
 
 /* underline */
-li a::before {
+/* li a::before {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -63,18 +63,44 @@ li a::before {
   background-color: var(--white);
   border-radius: 50px;
   transition: width 0.3s ease-in-out;
-}
+} */
 
 /* when the text hovered */
-li a:hover:before {
+/* li a:hover:before {
   width: 100%;
+} */
+
+/* new nav style */
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: var(--purple);
 }
 
+.logo {
+  line-height: 80px;
+  color: var(--white);
+  font-size: 30px;
+  padding: 10px 40px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+
+.menu ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  bottom: 20px;
+}
 /* end of nav */
 
 /* hero section */
 
-.container-hero {
+/* .container-hero {
   position: relative;
   background-color: var(--blue);
   background-image: url(img/hero-3.jpg);
@@ -117,13 +143,13 @@ li a:hover:before {
 
 .container-hero a:hover:before {
   width: 100%;
-}
+} */
 
 /* the end of hero section */
 
 /* about section */
 
-.about-section {
+/* .about-section {
   position: relative;
   width: 100%;
   height: auto;
@@ -137,30 +163,28 @@ li a:hover:before {
   align-items: center;
   justify-content: center;
   gap: 20px;
-}
+} */
 
 /* title for about */
-.title-about {
+/* .title-about {
   margin-bottom: 10px;
 }
 
 .item-1 {
-  /* border: 2px solid black; */
   width: 50%;
   height: 10%;
 }
 
 .item-2 {
-  /* border: 2px solid black; */
   width: 50%;
   height: 10%;
-}
+} */
 
 /* the end of about section */
 
 /* products */
 
-.product {
+/* .product {
   position: relative;
   top: 100px;
   width: 100%;
@@ -200,10 +224,10 @@ li a:hover:before {
   gap: 20px;
   border-radius: 20px;
   background-color: var(--wheat);
-}
+} */
 
 /* buat gambar di card */
-.cards img {
+/* .cards img {
   width: 50%;
   height: 20%;
 }
@@ -229,11 +253,13 @@ li a:hover:before {
 .cards h4 {
   color: var(--purple);
   font: 600;
-}
+} */
+
+/* the end of product */
 
 /* Social */
 
-.social {
+/* .social {
   position: relative;
   top: 100px;
   width: 100%;
@@ -251,12 +277,13 @@ li a:hover:before {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
+} */
 
 /* the end of social */
 
 /* footer */
-footer {
+
+/* footer {
   position: relative;
   width: 100%;
   height: auto;
@@ -265,7 +292,8 @@ footer {
   padding: 30px 0;
   text-align: center;
   z-index: 3;
-}
+} */
+
 /* the end of footer */
 
 /* mobile devices */
