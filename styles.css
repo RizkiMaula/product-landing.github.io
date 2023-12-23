@@ -11,7 +11,7 @@ html {
   --light-blue: #e5f4e4;
   --wheat: #f5d7b0;
   --white: #fff;
-  --purple: #6e3c61;
+  --bright-blue: #2b2bd8;
   --blue: #7cc4f9;
   --brown: #4c2d37;
 }
@@ -88,7 +88,7 @@ li a:hover:before {
 
 .container-hero p {
   padding-top: 40px;
-  color: var(--purple);
+  color: var(--bright-blue);
 }
 
 .container-hero a {
@@ -227,7 +227,7 @@ li a:hover:before {
 }
 
 .cards h4 {
-  color: var(--purple);
+  color: var(--bright-blue);
   font: 600;
 }
 
@@ -270,7 +270,7 @@ footer {
 
 /* mobile devices */
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 200px) and (min-width: 600px) {
   nav {
     justify-content: center;
   }
@@ -290,7 +290,7 @@ footer {
   }
 
   .container-hero p {
-    color: rgb(26, 26, 179);
+    color: var(--bright-blue);
   }
 
   .item-1 {
